@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gfl", "Gfl\Gfl.csproj", "{D3F56B30-71EF-45E3-8776-FCFC8B0BDB11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{5F5B5DEA-8F07-4AF7-A5D8-0F60A52CFFAC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E0E68692-C0B6-43CF-A157-1632D5B2DC9B}"
+	ProjectSection(SolutionItems) = preProject
+		Gfl.vsmdi = Gfl.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Gfl.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3F56B30-71EF-45E3-8776-FCFC8B0BDB11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F56B30-71EF-45E3-8776-FCFC8B0BDB11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F56B30-71EF-45E3-8776-FCFC8B0BDB11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F56B30-71EF-45E3-8776-FCFC8B0BDB11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F5B5DEA-8F07-4AF7-A5D8-0F60A52CFFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F5B5DEA-8F07-4AF7-A5D8-0F60A52CFFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F5B5DEA-8F07-4AF7-A5D8-0F60A52CFFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F5B5DEA-8F07-4AF7-A5D8-0F60A52CFFAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
