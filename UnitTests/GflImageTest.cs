@@ -48,7 +48,7 @@ namespace UnitTests
         public static void MyClassCleanup()
         {
             if (System.IO.File.Exists("test.tiff"))
-                System.IO.File.Delete("test.tiff"));
+                System.IO.File.Delete("test.tiff");
             GflAPI.Exit();
         }
         //
