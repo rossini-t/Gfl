@@ -19,8 +19,9 @@ namespace Gfl
           UInt16  ComponentsPerPixel;  
           UInt16 BytesPerPixel;  
           internal UInt16 Xdpi;  
-          internal UInt16 Ydpi;  
-          Int16  TransparentIndex;  
+          internal UInt16 Ydpi;          
+          Int16  TransparentIndex;
+          Int16 Reserved;   
           Int32 ColorUsed;
          // [MarshalAs(UnmanagedType.LPStruct)]
           internal IntPtr ColorMap;//internal GFL_COLORMAP ColorMap; // * COlorMap  
